@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  background: #fff;
+}
+
+header .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header nav {
+  color: #000;
+}
+
+header nav a {
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  color: #000;
+}
+
+header nav a:last-child {
+  color: #fff;
+  background: #ec171b;
+  padding: 10px 20px;
+  margin-left: 15px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+header nav a:hover {
+  opacity: 0.8;
+}
+
+#container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 20px;
+  height: 575px;
+}
+
+#bg-container {
+  width: 55%;
+}
+
+#bg-container svg {
+  width: 95%;
+  height: 90%;
+  margin-left: 85px;
+}
+
+#content-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#content-container h1 {
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 0.9em;
+  margin-bottom: 30px;
+  color: #ec171b;
+}
+
+#content-container p {
+  font-weight: 500;
+  line-height: 1.8em;
+}
+
+#content-container button {
+  color: #fff;
+  background: #ec171b;
+  padding: 16px 0px;
+  border: none;
+  border-radius: 40px;
+  outline: none;
+  margin-top: 30px;
+  font-size: 16px;
+  width: 160px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#content-container button:hover {
+  opacity: 0.8;
+}
+.screen{
+  position: relative;
+  left: 0;
+}
